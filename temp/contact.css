@@ -1,0 +1,128 @@
+/* General Page Styles */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f9ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0055aa, #00aaff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffee66;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Contact Form Section */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #0055aa;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 5px rgba(0,170,255,0.5);
+    outline: none;
+}
+
+/* Submit Button */
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background: #0055aa;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0077dd;
+}
+
+/* Contact Info Section */
+.contact-info {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background: #e6f3ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: #0055aa;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0055aa;
+    color: white;
+    margin-top: 40px;
+}

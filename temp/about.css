@@ -1,0 +1,85 @@
+/* General Page Styles */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0044cc, #0073e6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0044cc;
+    margin-top: 0;
+}
+
+/* Sections */
+.intro, .features, .credits {
+    margin-bottom: 25px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background: #e6f0ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 5px solid #0044cc;
+    border-radius: 6px;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0044cc;
+    color: white;
+    margin-top: 40px;
+}
